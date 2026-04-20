@@ -1,0 +1,24 @@
+
+{
+    "name": "nehad/tech-blog",
+    "type": "typo3-cms-extension",
+    "description": "",
+    "homepage": "https://portfolio.nehaddev.com/",
+    "license": ["GPL-2.0-or-later"],
+    "keywords": ["TYPO3 CMS"],
+    "require": {
+        "typo3/cms-core": "^13.4",
+        "typo3/cms-rte-ckeditor": "^13.4",
+        "typo3/cms-fluid-styled-content": "^13.4"
+    },
+    "autoload": {
+        "psr-4": {
+           "Nehad\\TechBlog\\": "Classes/"
+        }
+    },
+    "extra": {
+        "typo3/cms": {
+             "extension-key": "tech_blog"
+        }
+    }
+}

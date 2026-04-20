@@ -1,0 +1,26 @@
+base: 'https://tech-blog-typo3.ddev.site/'
+languages:
+  -
+    title: English
+    enabled: true
+    languageId: 0
+    base: /
+    locale: en_US.UTF-8
+    navigationTitle: English
+    flag: us
+    hreflang: ''
+    websiteTitle: ''
+  -
+    title: Deutsch
+    enabled: true
+    locale: de_AT.utf8
+    hreflang: ''
+    base: /de/
+    websiteTitle: 'Tech Blog'
+    navigationTitle: DE
+    fallbackType: fallback
+    fallbacks: ''
+    flag: at
+    languageId: 1
+rootPageId: 1
+websiteTitle: ''

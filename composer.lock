@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a751fdadce06bf32e23bd53515ca93ba",
+    "content-hash": "e8b5a9d8c2c25fdf35fe74737564329d",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -1272,6 +1272,41 @@
                 "source": "https://github.com/Masterminds/html5-php/tree/2.10.0"
             },
             "time": "2025-07-25T09:04:22+00:00"
+        },
+        {
+            "name": "nehad/tech-blog",
+            "version": "dev-main",
+            "dist": {
+                "type": "path",
+                "url": "./packages/techBlog",
+                "reference": "9a2f6b9a31a65af3cfded7a143b7b8e147d3119e"
+            },
+            "require": {
+                "typo3/cms-core": "^13.4",
+                "typo3/cms-fluid-styled-content": "^13.4",
+                "typo3/cms-rte-ckeditor": "^13.4"
+            },
+            "type": "typo3-cms-extension",
+            "extra": {
+                "typo3/cms": {
+                    "extension-key": "tech_blog"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Nehad\\TechBlog\\": "Classes/"
+                }
+            },
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "homepage": "https://portfolio.nehaddev.com/",
+            "keywords": [
+                "TYPO3 CMS"
+            ],
+            "transport-options": {
+                "relative": true
+            }
         },
         {
             "name": "nikic/php-parser",
@@ -7032,7 +7067,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {},
+    "stability-flags": {
+        "nehad/tech-blog": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {},

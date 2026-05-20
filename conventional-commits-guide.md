@@ -50,7 +50,7 @@ refactor: extract repository logic
 - `<scope>` → الجزء المتأثر (اختياري)
 - `<description>` → وصف مختصر (مطلوب)
 
----
+------
 
 ## 📋 أنواع Commits الأساسية
 
